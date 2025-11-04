@@ -18,91 +18,91 @@
       }
     },
     "RDBMS": {
-      "classifierName": "RDBMS",
+      "classifierName": "Relational Database",
       "color": "orange",
       "font": {
         "color": "black"
       }
     },
     "GRAPH": {
-      "classifierName": "GRAPH",
+      "classifierName": "Graph Database",
       "color": "gold",
       "font": {
         "color": "black"
       }
     },
     "GOPS": {
-      "classifierName": "GOPS",
+      "classifierName": "Graph Operations",
       "color": "green",
       "font": {
         "color": "black"
       }
     },
     "QPERF": {
-      "classifierName": "QPERF",
+      "classifierName": "Query Performance",
       "color": "cyan",
       "font": {
         "color": "white"
       }
     },
     "DATA": {
-      "classifierName": "DATA",
+      "classifierName": "Data Management",
       "color": "blue",
       "font": {
         "color": "white"
       }
     },
     "OBSRV": {
-      "classifierName": "OBSRV",
+      "classifierName": "Observability",
       "color": "purple",
       "font": {
         "color": "black"
       }
     },
     "COMP": {
-      "classifierName": "COMP",
+      "classifierName": "Compliance and Risk",
       "color": "brown",
       "font": {
         "color": "black"
       }
     },
     "BIZS": {
-      "classifierName": "BIZS",
+      "classifierName": "Business Services",
       "color": "pink",
       "font": {
         "color": "black"
       }
     },
     "ASSET": {
-      "classifierName": "ASSET",
+      "classifierName": "Assets & Integration",
       "color": "lightblue",
       "font": {
         "color": "black"
       }
     },
     "TRANS": {
-      "classifierName": "TRANS",
+      "classifierName": "Transformation",
       "color": "olive",
       "font": {
         "color": "black"
       }
     },
     "AI": {
-      "classifierName": "AI",
+      "classifierName": "AI & Analytics",
       "color": "magenta",
       "font": {
         "color": "black"
       }
     },
     "VALID": {
-      "classifierName": "VALID",
+      "classifierName": "Data Validation",
       "color": "teal",
       "font": {
         "color": "black"
       }
     },
     "OPS": {
-      "classifierName": "OPS",
+      "classifierName": "Operations",
       "color": "darkgreen",
       "font": {
         "color": "black"
