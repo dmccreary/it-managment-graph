@@ -8,6 +8,7 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
+  - About: about.md
   - Course Description: course-description.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
@@ -25,6 +26,7 @@ nav:
     - Generate Course Description: prompts/generate-course-description.md
     - Run Course Description Analyzer Skill: prompts/run-corse-description-analysis-skill.md
     - Run Learning Graph Generator Skill: prompts/run-learning-graph-generator.md
+    - Generate Glossary Skill: prompts/generate-glossary-skill.md
   - Checklist: checklist.md
   - Code Highlight Test: code-highlight-test.md
   - Glossary: glossary.md
