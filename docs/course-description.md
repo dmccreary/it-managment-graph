@@ -6,7 +6,7 @@
 
 ### Course Overview
 
-This graduate-level course examines the evolution of IT configuration management from traditional relational database approaches to modern graph-based solutions. Students will explore why legacy Configuration Management Database (CMDB) implementations, built on RDBMS technology, have consistently failed to meet organizational needs despite decades of investment. The course emphasizes how graph databases and real-time graph queries are revolutionizing IT management, providing the multi-hop transitive dependency analysis essential for understanding modern digital estates.
+This undergraduate-level course examines the evolution of IT configuration management from traditional relational database approaches to modern graph-based solutions. Students will explore why legacy Configuration Management Database (CMDB) implementations, built on RDBMS technology, have consistently failed to meet organizational needs despite decades of investment. The course emphasizes how graph databases and real-time graph queries are revolutionizing IT management, providing the multi-hop transitive dependency analysis essential for understanding modern digital estates.
 
 Through case studies, hands-on exercises, and industry examples, students will learn to architect, implement, and govern IT management graphs that support critical business decisions around technical debt, regulatory compliance (HIPAA, DORA, GDPR), and digital transformation initiatives.
 
