@@ -16,6 +16,10 @@ nav:
     - Graph Quality Analysis: learning-graph/quality-metrics.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+  - MicroSins:
+    - Introduction: sims/index.md
+    - Graph Viewer: sims/graph-viewer/index.md
+    # - Timeline: sims/timeline/index.md
   - Prompts:
     - Introduction: prompts/index.md
     - Generate Course Description: prompts/generate-course-description.md
