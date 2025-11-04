@@ -1,0 +1,3 @@
+# Generate Course Description
+!!! prompt
+    Based on the following blog post, create a course description for a college-level class in IT management.  The course is targeting college level students taking an MBA in information systems.  Highlight the limitations of older RDBMS systems to managed configuration management database (CMDB) and show the strengths of a graph-based approach to IT management.  Focus on the ability of graph queries to work in real-time.  Use the 2001 Bloom Taxonomy to structure the "After taking this class students will be able to" outcomes.
