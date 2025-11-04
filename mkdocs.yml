@@ -31,6 +31,7 @@ nav:
     - Graph Quality Analysis: learning-graph/quality-metrics.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Glossary Quality Report: learning-graph/glossary-quality-report.md
   - MicroSins:
     - Introduction: sims/index.md
     - Graph Viewer: sims/graph-viewer/index.md
@@ -38,7 +39,7 @@ nav:
   - Prompts:
     - Introduction: prompts/index.md
     - Generate Course Description: prompts/generate-course-description.md
-    - Run Course Description Analyzer Skill: prompts/run-corse-description-analysis-skill.md
+    - Run Course Description Analyzer Skill: prompts/run-course-description-analysis-skill.md
     - Run Learning Graph Generator Skill: prompts/run-learning-graph-generator.md
     - Generate Glossary Skill: prompts/generate-glossary-skill.md
   - Checklist: checklist.md
