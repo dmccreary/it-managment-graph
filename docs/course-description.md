@@ -58,30 +58,36 @@ After taking this class, students will be able to:
 ### Key Topics
 
 1. **The CMDB Legacy Problem**
+
    - Why military-spec configuration management failed in dynamic IT environments
    - The costly confusion between configuration parameters and relationship management
 
 2. **RDBMS Limitations for IT Management**
+
    - Performance degradation with complex JOIN operations
    - Schema rigidity vs. IT estate volatility
    - The impossibility of efficient multi-hop queries in relational models
 
 3. **Graph Database Fundamentals for IT**
+
    - Nodes, edges, and properties in IT context
    - Native graph storage vs. graph layers on RDBMS
    - Real-time traversal algorithms and their computational advantages
 
 4. **Real-Time Graph Queries in Practice**
+
    - Sub-second dependency tracing across thousands of nodes
    - Dynamic impact analysis during incidents
    - Continuous compliance checking against regulatory requirements
 
 5. **Data Management Excellence**
+
    - Moving from ITIL process focus to DMBOK data principles
    - Quality metrics and exception reporting
    - AI-assisted data curation and validation
 
 6. **Industry Implementation**
+
    - Case studies from financial services, healthcare, and technology sectors
    - Vendor ecosystem analysis
    - Migration strategies from CMDB to IT management graphs
@@ -107,7 +113,7 @@ This course does NOT cover:
 
 ### Required Resources
 
-- Primary text: "Graph Databases for IT Management" (forthcoming)
+- Primary text: "Graph Databases for IT Management" ()
 - Access to graph database sandbox environment (Neo4j or similar)
 - Industry reports from Forrester, Gartner on IT management evolution
 
