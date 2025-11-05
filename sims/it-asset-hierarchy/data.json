@@ -1,0 +1,143 @@
+{
+    "name": "IT Assets",
+    "color": "#2196F3",
+    "icon": "🏢",
+    "definition": "All technology resources that provide value to the organization",
+    "children": [
+        {
+            "name": "Hardware Assets",
+            "color": "#FF9800",
+            "icon": "🖥️",
+            "definition": "Physical computing infrastructure and equipment",
+            "managementConsiderations": "Physical security, maintenance schedules, warranty tracking, EOL management",
+            "lifecycle": ["Procurement", "Deployment", "Operation", "Retirement"],
+            "challenges": [
+                "Hardware refresh cycles (3-5 years)",
+                "Physical space and power requirements",
+                "Warranty and support contract management",
+                "Disposal and e-waste compliance"
+            ],
+            "cmdbIntegration": "Track physical location, serial numbers, warranty dates, maintenance history, and dependencies",
+            "stakeholders": "IT Operations, Facilities, Procurement",
+            "managementFocus": "Operational - focus on uptime and reliability",
+            "updateFrequency": "Stable - changes quarterly or less",
+            "trackingAttributes": ["Serial Number", "Location", "Warranty Expiry", "Configuration", "Dependencies"],
+            "children": [
+                {
+                    "name": "Servers",
+                    "color": "#FFB74D",
+                    "icon": "🖥️",
+                    "examples": ["Dell PowerEdge R750", "HP ProLiant DL380", "Cisco UCS C240"]
+                },
+                {
+                    "name": "Network Equipment",
+                    "color": "#FFB74D",
+                    "icon": "🌐",
+                    "examples": ["Cisco Catalyst 9300 Switch", "Palo Alto PA-5200 Firewall", "Aruba 2930F Switch"]
+                },
+                {
+                    "name": "End-User Devices",
+                    "color": "#FFB74D",
+                    "icon": "💻",
+                    "examples": ["Dell Latitude 7420", "MacBook Pro M2", "Surface Pro 9", "iPhone 14"]
+                },
+                {
+                    "name": "Storage Systems",
+                    "color": "#FFB74D",
+                    "icon": "💾",
+                    "examples": ["NetApp FAS8300", "Dell EMC Unity XT", "Pure Storage FlashArray"]
+                }
+            ]
+        },
+        {
+            "name": "Software Assets",
+            "color": "#FFC107",
+            "icon": "📦",
+            "definition": "Licensed software applications and platforms",
+            "managementConsiderations": "License compliance, version control, security patching, vendor relationships",
+            "lifecycle": ["License Procurement", "Installation", "Updates/Patches", "Decommission"],
+            "challenges": [
+                "Complex licensing models (per user, per core, concurrent)",
+                "Software audit compliance and true-up costs",
+                "Version compatibility across environments",
+                "Security vulnerability management"
+            ],
+            "cmdbIntegration": "Track license counts, version numbers, installation locations, dependencies, and compliance status",
+            "stakeholders": "IT Operations, Security, Software Asset Managers, Finance",
+            "managementFocus": "Financial & Compliance - license optimization and audit readiness",
+            "updateFrequency": "Dynamic - monthly patches and updates",
+            "trackingAttributes": ["License Count", "Version", "Install Base", "Renewal Date", "Compliance Status"],
+            "children": [
+                {
+                    "name": "Applications",
+                    "color": "#FFD54F",
+                    "icon": "📱",
+                    "examples": ["Microsoft Office 365", "Salesforce", "SAP S/4HANA", "Adobe Creative Cloud"]
+                },
+                {
+                    "name": "Operating Systems",
+                    "color": "#FFD54F",
+                    "icon": "⚙️",
+                    "examples": ["Windows Server 2022", "Red Hat Enterprise Linux 9", "macOS Ventura"]
+                },
+                {
+                    "name": "Middleware",
+                    "color": "#FFD54F",
+                    "icon": "🔗",
+                    "examples": ["Apache Tomcat", "IBM WebSphere", "Oracle Fusion Middleware"]
+                },
+                {
+                    "name": "Licenses",
+                    "color": "#FFD54F",
+                    "icon": "📜",
+                    "examples": ["SQL Server Enterprise CALs", "VMware vSphere Licenses", "Oracle Database Licenses"]
+                }
+            ]
+        },
+        {
+            "name": "Digital Services",
+            "color": "#4CAF50",
+            "icon": "☁️",
+            "definition": "Cloud-based services and digital resources consumed as services",
+            "managementConsiderations": "Subscription management, cost optimization, SLA monitoring, data sovereignty",
+            "lifecycle": ["Subscription", "Onboarding", "Utilization", "Cancellation"],
+            "challenges": [
+                "Shadow IT and unmanaged subscriptions",
+                "Cost control and usage optimization",
+                "Data integration and vendor lock-in",
+                "Security and compliance in shared environments"
+            ],
+            "cmdbIntegration": "Track subscription details, API endpoints, data flows, cost allocation, and service dependencies",
+            "stakeholders": "Cloud Architects, DevOps, Finance, Business Units",
+            "managementFocus": "Financial & Operational - cost optimization and service integration",
+            "updateFrequency": "Highly Dynamic - changes weekly or daily",
+            "trackingAttributes": ["Subscription ID", "Monthly Cost", "Usage Metrics", "API Endpoints", "Data Classification"],
+            "children": [
+                {
+                    "name": "SaaS Subscriptions",
+                    "color": "#81C784",
+                    "icon": "📊",
+                    "examples": ["Slack Enterprise", "Zoom Business", "Jira Cloud", "GitHub Enterprise"]
+                },
+                {
+                    "name": "Cloud Resources",
+                    "color": "#81C784",
+                    "icon": "☁️",
+                    "examples": ["AWS EC2 Instances", "Azure SQL Database", "Google Cloud Storage"]
+                },
+                {
+                    "name": "Data Assets",
+                    "color": "#81C784",
+                    "icon": "🗄️",
+                    "examples": ["Customer Database", "Analytics Data Lake", "Document Repository"]
+                },
+                {
+                    "name": "APIs/Integrations",
+                    "color": "#81C784",
+                    "icon": "🔌",
+                    "examples": ["Stripe Payment API", "Twilio SMS API", "Google Maps API"]
+                }
+            ]
+        }
+    ]
+}
