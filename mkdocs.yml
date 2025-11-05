@@ -1,5 +1,5 @@
-site_name: IT Management Graph
-site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_name: IT Management with Graphs
+site_description: 'An in-depth course on IT management using graph databases, covering ITIL, configuration management, asset management, and advanced graph techniques.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/it-management-graph/'

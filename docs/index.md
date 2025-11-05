@@ -1,4 +1,11 @@
-# IT Management Graph
+---
+hide:
+    toc
+---
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
+![](./img/cover.png)
 
 Welcome to our website in using a graph database
 to manage IT resources.
