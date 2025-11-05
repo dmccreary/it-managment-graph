@@ -31,7 +31,7 @@ This chapter covers the following 20 concepts from the learning graph:
 
 ## Prerequisites
 
-This chapter assumes only the prerequisites listed in the [course description](../../docs/course-description.md):
+This chapter assumes only the prerequisites listed in the [course description](../../course-description.md):
 
 - ISMG 510: Database Management Systems
 - ISMG 520: Enterprise Architecture Fundamentals
