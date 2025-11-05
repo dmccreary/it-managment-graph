@@ -196,6 +196,9 @@ Within the asset management domain, IT assets are typically categorized into sev
 
 **Software Assets** encompass applications, operating systems, middleware, and development tools. Unlike hardware, software assets present complex licensing compliance challenges—per-user licenses, per-core licenses, subscription models, and open-source compliance obligations create a multifaceted management problem. Software asset management must track license entitlements against actual deployments to avoid compliance risk and optimize software spending.
 
+<iframe src="../../sims/it-asset-hierarchy/main.html" width="100%" height="700"></iframe>
+[Run the IT Assets Hierarchy Viewer Fullscreen](../../sims/it-asset-hierarchy/main.html){ .md-button .md-button--primary }
+
 <details>
     <summary>IT Asset Hierarchy Infographic</summary>
     Type: infographic

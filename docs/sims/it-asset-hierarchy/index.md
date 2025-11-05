@@ -4,7 +4,14 @@ hide:
 ---
 # IT Assets Hierarchy - Interactive Infographic
 
-<iframe src="main.html" width="100%" height="700" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+<iframe src="main.html" width="100%" height="700"></iframe>
+
+[Run the IT Assets Hierarchy Viewer Fullscreen](main.html){ .md-button .md-button--primary }
+
+```html
+<iframe src="main.html" width="100%" height="700"></iframe>
+
+```
 
 An interactive radial visualization showing the hierarchical relationships between different types of IT assets, with detailed information about management considerations, lifecycle, and CMDB integration.
 

@@ -1,6 +1,6 @@
 # Learning Graph Viewer
 
-[Run the Learning Graph Viewer](main.html){ .md-button .md-button--primary }
+[Run the Learning Graph Viewer Fullscreen](main.html){ .md-button .md-button--primary }
 
 This viewer combines two powerful features for exploring learning graphs:
 
