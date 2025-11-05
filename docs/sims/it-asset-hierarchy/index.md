@@ -78,9 +78,11 @@ After interacting with this visualization, you should be able to:
 4. Understand what attributes should be tracked in a CMDB for each type
 5. Recognize the shift from traditional hardware/software assets to cloud-based digital services
 
+<!--
 ## Related Topics
 
 - [CMDB Fundamentals](../../concepts/cmdb.md)
 - [IT Service Management](../../concepts/itsm.md)
 - [Asset Lifecycle Management](../../concepts/lifecycle.md)
 - [Cloud vs. On-Premise Assets](../../concepts/cloud-comparison.md)
+-->
