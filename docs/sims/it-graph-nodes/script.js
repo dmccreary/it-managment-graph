@@ -56,13 +56,14 @@ function initializeFilterCheckboxes() {
 function initializeLegend() {
     const container = document.getElementById('legendItems');
 
-    // Create a map of types to colors and icons
+    // Create a map of types to colors, icons, and shapes
     const typeInfoMap = {};
     allNodesData.forEach(node => {
         if (!typeInfoMap[node.type]) {
             typeInfoMap[node.type] = {
                 color: node.color,
-                icon: node.icon || null
+                icon: node.icon || null,
+                shape: node.shape
             };
         }
     });
@@ -72,7 +73,7 @@ function initializeLegend() {
         const item = document.createElement('div');
         item.className = 'legend-item';
 
-        // Use icon if available, otherwise use colored circle
+        // Use icon if available, otherwise use colored shape
         if (info.icon) {
             const iconImg = document.createElement('img');
             iconImg.className = 'legend-icon';
@@ -80,10 +81,18 @@ function initializeLegend() {
             iconImg.alt = type;
             item.appendChild(iconImg);
         } else {
-            const colorBox = document.createElement('div');
-            colorBox.className = 'legend-color';
-            colorBox.style.backgroundColor = info.color;
-            item.appendChild(colorBox);
+            const shapeBox = document.createElement('div');
+            shapeBox.className = 'legend-shape';
+            shapeBox.style.backgroundColor = info.color;
+
+            // Apply shape-specific styling
+            if (info.shape === 'box') {
+                shapeBox.style.borderRadius = '3px';
+            } else if (info.shape === 'circle') {
+                shapeBox.style.borderRadius = '50%';
+            }
+
+            item.appendChild(shapeBox);
         }
 
         const label = document.createElement('div');
@@ -168,6 +177,16 @@ function initializeNetwork() {
             font: {
                 size: 14
             }
+        },
+        tooltip: {
+            delay: 100,
+            fontColor: '#1e293b',
+            fontSize: 14,
+            fontFace: 'arial',
+            color: {
+                border: '#3b82f6',
+                background: '#ffffff'
+            }
         }
     };
 
@@ -185,11 +204,11 @@ function initializeNetwork() {
 
 // Create tooltip content
 function createTooltip(node) {
-    let tooltip = `<strong>${node.label}</strong><br>`;
-    tooltip += `<em>Type: ${node.type}</em><br><br>`;
+    let tooltip = `${node.label}\n`;
+    tooltip += `Type: ${node.type}\n\n`;
 
     Object.entries(node.properties).forEach(([key, value]) => {
-        tooltip += `<strong>${key}:</strong> ${value}<br>`;
+        tooltip += `${key}: ${value}\n`;
     });
 
     return tooltip;

@@ -220,10 +220,10 @@ h1 {
     font-size: 0.85em;
 }
 
-.legend-color {
+.legend-color,
+.legend-shape {
     width: 20px;
     height: 20px;
-    border-radius: 50%;
     border: 2px solid #334155;
     flex-shrink: 0;
 }
