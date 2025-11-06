@@ -3,7 +3,7 @@
 This report analyzes all `<details>` tags in the textbook chapters to categorize visualization types and prioritize skill development.
 
 <iframe src="../sims/skill-impact-chart/main.html" width="100%" height="900" scrolling="no"></iframe>
-[View Chart Fullscreen](../sims/skill-impact-chart/main.html)
+[View Chart Fullscreen](sims/skill-impact-chart/main.html)
 
 
 ## Summary Statistics
