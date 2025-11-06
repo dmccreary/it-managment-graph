@@ -1,0 +1,1857 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An in-depth course on IT management using graph databases, covering ITIL, configuration management, asset management, and advanced graph techniques.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/it-management-graph/prompts/run-all-it-graph-diagrams/">
+      
+      
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>IT Graph Generator - All Graph-Model Diagrams - IT Management with Graphs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-W7BFLBRXZ9"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-W7BFLBRXZ9",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-W7BFLBRXZ9",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="IT Graph Generator - All Graph-Model Diagrams - IT Management with Graphs" >
+      
+        <meta  property="og:description"  content="An in-depth course on IT management using graph databases, covering ITIL, configuration management, asset management, and advanced graph techniques." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/it-management-graph/assets/images/social/prompts/run-all-it-graph-diagrams.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/it-management-graph/prompts/run-all-it-graph-diagrams/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="IT Graph Generator - All Graph-Model Diagrams - IT Management with Graphs" >
+      
+        <meta  name="twitter:description"  content="An in-depth course on IT management using graph databases, covering ITIL, configuration management, asset management, and advanced graph techniques." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/it-management-graph/assets/images/social/prompts/run-all-it-graph-diagrams.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#it-graph-generator-all-graph-model-diagrams" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="IT Management with Graphs" class="md-header__button md-logo" aria-label="IT Management with Graphs" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            IT Management with Graphs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IT Graph Generator - All Graph-Model Diagrams
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/it-management-graph" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="IT Management with Graphs" class="md-nav__button md-logo" aria-label="IT Management with Graphs" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    IT Management with Graphs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/it-management-graph" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../checklist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Checklist
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../code-highlight-test/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code Highlight Test
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../book-metrics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Book Metrics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../details-analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Details Analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how-we-built-this-site/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How We Built This Site
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feedback/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Feedback
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-it-asset-relationship-graph-interactive-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. IT Asset Relationship Graph Interactive Model
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-it-infrastructure-nodes-interactive-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. IT Infrastructure Nodes Interactive Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-it-infrastructure-graph-with-nodes-and-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. IT Infrastructure Graph with Nodes and Relationships
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-deployment-dependencies-as-a-directed-acyclic-graph-dag" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Deployment Dependencies as a Directed Acyclic Graph (DAG)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-dependency-graph-with-cycle-detection-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Dependency Graph with Cycle Detection Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cypher-pattern-matching-interactive-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Cypher Pattern Matching Interactive Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-bidirectional-dependency-tracing-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Bidirectional Dependency Tracing Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-multi-layer-dependency-map-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Multi-Layer Dependency Map Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-business-service-mapping-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Business Service Mapping Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-rbac-permission-graph-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. RBAC Permission Graph Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation Notes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation Notes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#order-of-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Order of Implementation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature-requests-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feature Requests Summary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Testing Checklist
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/it-management-graph/blob/master/docs/prompts/run-all-it-graph-diagrams.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="it-graph-generator-all-graph-model-diagrams">IT Graph Generator - All Graph-Model Diagrams</h1>
+<p>This document contains prompts for generating all 10 graph-model visualizations identified in the details-analysis.md file.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><strong>Total graph-model instances:</strong> 10</li>
+<li><strong>Priority score:</strong> 6.67 (highest ROI)</li>
+<li><strong>Status:</strong> Ready for generation using it-graph-generator skill</li>
+</ul>
+<h2 id="implementation-checklist">Implementation Checklist</h2>
+<ul>
+<li>[ ] 1. IT Asset Relationship Graph Interactive Model</li>
+<li>[ ] 2. IT Infrastructure Nodes Interactive Visualization</li>
+<li>[ ] 3. IT Infrastructure Graph with Nodes and Relationships</li>
+<li>[ ] 4. Deployment Dependencies as a Directed Acyclic Graph (DAG)</li>
+<li>[ ] 5. Dependency Graph with Cycle Detection Visualization</li>
+<li>[ ] 6. Cypher Pattern Matching Interactive Visualization</li>
+<li>[ ] 7. Bidirectional Dependency Tracing Visualization</li>
+<li>[ ] 8. Multi-Layer Dependency Map Visualization</li>
+<li>[ ] 9. Business Service Mapping Visualization</li>
+<li>[ ] 10. RBAC Permission Graph Visualization</li>
+</ul>
+<hr />
+<h2 id="1-it-asset-relationship-graph-interactive-model">1. IT Asset Relationship Graph Interactive Model</h2>
+<p><strong>Chapter:</strong> IT Asset Management Fundamentals</p>
+<p><strong>Purpose:</strong> Demonstrate the relationship types connecting IT assets in a management graph, showing how asset, application, and service layers interconnect</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;it-asset-relationships&quot; that demonstrates
+relationship types connecting IT assets in a management graph.
+
+Include these node types:
+- Hardware Assets (servers, laptops, network devices) - Gray, server/laptop icons
+- Software Assets (applications, databases) - Light blue, application icons
+- Services (business services, technical services) - Pink, service icons
+- Users - Amber, user icons
+
+Show these relationship types with labeled edges:
+- HOSTS (hardware → software)
+- RUNS_ON (software → hardware)
+- DEPENDS_ON (service → application)
+- PROVIDES (application → service)
+- ASSIGNED_TO (hardware → user)
+- USES (user → service)
+
+Include 10-12 nodes showing all three layers (asset, application, service) interconnected.
+
+Educational focus: Demonstrate how different asset types connect through various
+relationship types to create a comprehensive IT management graph.
+
+Custom educational notes:
+1. &quot;Notice how a single business service depends on multiple applications and infrastructure components&quot;
+2. &quot;Hardware-software relationships flow both ways: HOSTS and RUNS_ON provide bidirectional context&quot;
+3. &quot;User assignments create accountability chains through the entire technology stack&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="2-it-infrastructure-nodes-interactive-visualization">2. IT Infrastructure Nodes Interactive Visualization</h2>
+<p><strong>Chapter:</strong> Graph Theory and Graph Database Foundations</p>
+<p><strong>Purpose:</strong> Demonstrate how different IT infrastructure entities are represented as nodes in a graph database, showing node labels, properties, and visual styling</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;it-infrastructure-nodes&quot; that demonstrates
+how IT infrastructure entities are represented as nodes in a graph database. This should
+be a NODES-ONLY visualization (no edges).
+
+Include these node types with rich, heterogeneous properties:
+- Server (3 nodes) - hostname, IP, OS, CPU, memory, location
+- Database (2 nodes) - name, type, version, size, backup_schedule
+- Application (2 nodes) - name, technology, version, environment
+- Network Device (2 nodes) - name, type, IP, ports, throughput
+- Storage (1 node) - name, type, capacity, RAID_level
+
+Total: 10 nodes with different properties per type to demonstrate schema flexibility.
+
+Educational focus: Show how graph databases allow heterogeneous node properties without
+rigid schema constraints.
+
+Custom callouts:
+1. &quot;Each node type has completely different properties - no rigid schema required!&quot;
+2. &quot;Properties are stored directly with each node, not in separate attribute tables&quot;
+3. &quot;Node types (labels) help organize and query entities efficiently&quot;
+4. &quot;In the next section, we&#39;ll connect these nodes with relationships&quot;
+
+Custom educational notes:
+1. &quot;Notice how Server nodes have infrastructure properties (IP, OS) while Database nodes have data management properties (version, backup schedule)&quot;
+2. &quot;This property flexibility eliminates the need for EAV (Entity-Attribute-Value) tables or sparse columns common in relational databases&quot;
+3. &quot;Graph databases embrace heterogeneous data naturally - each node stores exactly the properties it needs&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="3-it-infrastructure-graph-with-nodes-and-relationships">3. IT Infrastructure Graph with Nodes and Relationships</h2>
+<p><strong>Chapter:</strong> Graph Theory and Graph Database Foundations</p>
+<p><strong>Purpose:</strong> Extend the previous nodes visualization by adding directed relationships, demonstrating how edges connect IT infrastructure entities to create a meaningful dependency graph</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;it-infrastructure-graph&quot; that extends
+the nodes-only visualization by adding directed relationships to show dependencies.
+
+Use similar nodes as the previous microsim but add directed edges:
+- Application → Database (QUERIES)
+- Application → Server (RUNS_ON)
+- Database → Storage (STORES_ON)
+- Network Device → Server (ROUTES_TO)
+- Server → Network Device (CONNECTS_VIA)
+
+Include 10-12 nodes with 12-15 edges showing a realistic dependency structure.
+
+Educational focus: Demonstrate how directed relationships create meaningful dependency
+graphs for IT infrastructure management.
+
+Custom callouts:
+1. &quot;Directed edges show the flow of dependencies - arrows indicate direction&quot;
+2. &quot;Relationship types (labels) describe HOW entities are connected&quot;
+3. &quot;The same nodes can have multiple relationship types to other nodes&quot;
+4. &quot;This graph structure enables powerful traversal queries like &#39;find all dependencies&#39;&quot;
+
+Custom educational notes:
+1. &quot;Notice how applications QUERY databases but RUN_ON servers - different relationship semantics&quot;
+2. &quot;Following arrows upstream shows what a component depends on; downstream shows what depends on it&quot;
+3. &quot;Graph traversal can answer questions like &#39;What infrastructure does this application need?&#39; in a single query&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="4-deployment-dependencies-as-a-directed-acyclic-graph-dag">4. Deployment Dependencies as a Directed Acyclic Graph (DAG)</h2>
+<p><strong>Chapter:</strong> Graph Theory and Graph Database Foundations</p>
+<p><strong>Purpose:</strong> Demonstrate how IT component dependencies naturally form a DAG structure, showing deployment order requirements and illustrating how topological sorting determines safe deployment sequences</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;deployment-dag&quot; that demonstrates
+deployment dependencies as a Directed Acyclic Graph (DAG).
+
+Include these components in deployment order layers:
+- Infrastructure layer: Database Server, Application Server, Load Balancer
+- Data layer: Database Schema, Configuration Service
+- Application layer: API Service, Web Frontend
+- Integration layer: Monitoring Agent, Log Collector
+
+Show DEPENDS_ON relationships that create a valid DAG (no cycles).
+
+Node properties should include:
+- deployment_order (number)
+- deployment_time (minutes)
+- criticality (high/medium/low)
+
+Educational focus: Show how topological sorting of the DAG determines safe deployment order.
+
+FEATURE REQUEST: Add a &quot;Show Deployment Path&quot; button that highlights nodes in
+topological order and displays the deployment sequence in the sidebar.
+
+Custom callouts:
+1. &quot;DAG structure ensures no circular dependencies - deployment order is always possible&quot;
+2. &quot;Arrows point from dependent to dependency - follow backwards to find deployment order&quot;
+3. &quot;Topological sorting produces a safe deployment sequence&quot;
+4. &quot;Any valid topological sort respects all dependency constraints&quot;
+
+Custom educational notes:
+1. &quot;Notice how infrastructure components (database, servers) have no dependencies - they deploy first&quot;
+2. &quot;Applications can only deploy after their dependencies are ready - the graph enforces this constraint&quot;
+3. &quot;A deployment cycle would make it impossible to determine order - DAG structure prevents this&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="5-dependency-graph-with-cycle-detection-visualization">5. Dependency Graph with Cycle Detection Visualization</h2>
+<p><strong>Chapter:</strong> Graph Database Technologies and Query Languages</p>
+<p><strong>Purpose:</strong> Demonstrate cycle detection in an IT dependency graph, showing both healthy DAG structures and problematic circular dependencies that need architectural attention</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;dependency-cycle-detection&quot; that
+demonstrates cycle detection in dependency graphs.
+
+Include two separate component groups:
+1. Healthy DAG (6 nodes): Frontend → API → Database → Storage (no cycles)
+2. Problematic cycle (4 nodes): ServiceA → ServiceB → ServiceC → ServiceA (circular dependency)
+
+Use different edge colors:
+- Green edges for healthy dependencies (DAG)
+- Red edges for circular dependencies (cycle)
+
+Node types:
+- Application
+- Service
+- Database
+- Storage
+
+FEATURE REQUEST: Add a &quot;Detect Cycles&quot; button that highlights all nodes participating
+in cycles with a red border and displays cycle paths in the sidebar.
+
+Custom callouts:
+1. &quot;Cycles in dependency graphs indicate architectural problems&quot;
+2. &quot;Healthy systems form DAGs - deployment order is always determinable&quot;
+3. &quot;Circular dependencies create deadlock scenarios during deployment or recovery&quot;
+4. &quot;Graph algorithms can automatically detect these problematic patterns&quot;
+
+Custom educational notes:
+1. &quot;Notice the green subgraph has a clear flow from frontend to storage - this is deployable&quot;
+2. &quot;The red cycle shows services that depend on each other - which deploys first?&quot;
+3. &quot;Cycle detection algorithms like DFS can identify these problems automatically during CI/CD&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="6-cypher-pattern-matching-interactive-visualization">6. Cypher Pattern Matching Interactive Visualization</h2>
+<p><strong>Chapter:</strong> Graph Database Technologies and Query Languages</p>
+<p><strong>Purpose:</strong> Demonstrate how Cypher pattern matching works by showing a query pattern (template) and highlighting all matching subgraphs in a larger IT infrastructure graph</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;cypher-pattern-matching&quot; that demonstrates
+Cypher pattern matching by showing matching subgraphs.
+
+Create a larger graph (12-15 nodes) with multiple instances of common patterns:
+- Pattern 1: (App)-[USES]-&gt;(Database) - appears 3 times
+- Pattern 2: (User)-[ACCESSES]-&gt;(App)-[QUERIES]-&gt;(Database) - appears 2 times
+- Pattern 3: (Server)-[HOSTS]-&gt;(App) - appears 3 times
+
+Node types: User, Application, Database, Server
+
+FEATURE REQUEST: Add pattern selection buttons that highlight all subgraphs matching
+the selected pattern. When a pattern is selected, highlight matching nodes and edges
+with a distinctive color and show the Cypher query in the sidebar:
+
+Pattern 1: MATCH (a:App)-[:USES]-&gt;(d:Database) RETURN a, d
+Pattern 2: MATCH (u:User)-[:ACCESSES]-&gt;(a:App)-[:QUERIES]-&gt;(d:Database) RETURN u, a, d
+Pattern 3: MATCH (s:Server)-[:HOSTS]-&gt;(a:App) RETURN s, a
+
+Custom callouts:
+1. &quot;Cypher queries describe graph patterns using ASCII art syntax&quot;
+2. &quot;The database finds all subgraphs matching the pattern&quot;
+3. &quot;Pattern matching is declarative - you describe what you want, not how to find it&quot;
+4. &quot;Complex queries can match multi-hop patterns in a single statement&quot;
+
+Custom educational notes:
+1. &quot;Notice how the same node can participate in multiple pattern matches&quot;
+2. &quot;Pattern matching is much more intuitive than multi-table JOINs in SQL&quot;
+3. &quot;This single pattern query would require complex JOIN logic in relational databases&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="7-bidirectional-dependency-tracing-visualization">7. Bidirectional Dependency Tracing Visualization</h2>
+<p><strong>Chapter:</strong> Graph Traversal and Dependency Analysis</p>
+<p><strong>Purpose:</strong> Demonstrate upstream and downstream dependency tracing from a central component, showing how direction affects the scope of analysis</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;bidirectional-dependency-tracing&quot; that
+demonstrates upstream (what this depends on) and downstream (what depends on this)
+dependency analysis.
+
+Create a graph centered on a &quot;Payment API&quot; node (marked as the central node with
+larger size and distinct color):
+
+Upstream dependencies (what Payment API depends on):
+- Payment Database
+- Auth Service
+- Config Service
+- Message Queue
+
+Downstream dependents (what depends on Payment API):
+- Web Frontend
+- Mobile App
+- Partner Integration
+- Admin Dashboard
+
+Use edge colors:
+- Blue edges for upstream dependencies (incoming to Payment API)
+- Orange edges for downstream dependencies (outgoing from Payment API)
+
+FEATURE REQUEST: Add three radio buttons:
+1. &quot;Show All Dependencies&quot; - show entire graph
+2. &quot;Show Upstream Only&quot; - highlight only upstream dependencies and dim downstream
+3. &quot;Show Downstream Only&quot; - highlight only downstream dependencies and dim upstream
+
+Display the dependency count in the sidebar for each mode.
+
+Custom callouts:
+1. &quot;Upstream analysis shows what this component needs to function&quot;
+2. &quot;Downstream analysis shows blast radius - what breaks if this fails&quot;
+3. &quot;Direction matters - dependencies flow differently than impact&quot;
+4. &quot;Impact analysis follows edges backward from the traversal direction&quot;
+
+Custom educational notes:
+1. &quot;Notice upstream dependencies are things the Payment API calls - these must be available first&quot;
+2. &quot;Downstream dependents are consumers - these break if Payment API fails (blast radius)&quot;
+3. &quot;Change impact analysis requires downstream traversal; deployment planning needs upstream&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="8-multi-layer-dependency-map-visualization">8. Multi-Layer Dependency Map Visualization</h2>
+<p><strong>Chapter:</strong> Graph Traversal and Dependency Analysis</p>
+<p><strong>Purpose:</strong> Demonstrate how different dependency types (business service, technical service, application, infrastructure) form layers in an IT management graph, showing cross-layer dependencies</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;multi-layer-dependency-map&quot; that
+demonstrates how IT dependencies span multiple architectural layers.
+
+Include these layers with distinct node colors:
+1. Business Service Layer (Pink) - 2 nodes: &quot;Customer Portal&quot;, &quot;Payment Processing&quot;
+2. Technical Service Layer (Purple) - 3 nodes: &quot;Auth Service&quot;, &quot;Payment API&quot;, &quot;User Profile API&quot;
+3. Application Layer (Light Blue) - 3 nodes: &quot;Frontend App&quot;, &quot;API Gateway&quot;, &quot;Background Jobs&quot;
+4. Infrastructure Layer (Gray) - 4 nodes: &quot;Web Server&quot;, &quot;App Server&quot;, &quot;Database&quot;, &quot;Message Queue&quot;
+
+Show cross-layer dependencies:
+- Business → Technical
+- Technical → Application
+- Application → Infrastructure
+
+Use different edge styles for each layer transition:
+- Solid for same-layer dependencies
+- Dashed for cross-layer dependencies
+
+FEATURE REQUEST: Add layer filter checkboxes that allow showing/hiding entire layers
+and their dependencies. Add a &quot;Show Layer View&quot; toggle that rearranges nodes into
+horizontal bands by layer.
+
+Custom callouts:
+1. &quot;IT dependencies span multiple architectural layers&quot;
+2. &quot;Business services depend on technical services, which depend on infrastructure&quot;
+3. &quot;Cross-layer dependencies show the full technology stack&quot;
+4. &quot;Each layer has different operational concerns and ownership&quot;
+
+Custom educational notes:
+1. &quot;Notice how a single business service depends on components across all layers&quot;
+2. &quot;Layer isolation helps with separation of concerns but creates vertical dependency chains&quot;
+3. &quot;Impact analysis must traverse all layers to understand business service risk&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="9-business-service-mapping-visualization">9. Business Service Mapping Visualization</h2>
+<p><strong>Chapter:</strong> Business Services and IT Portfolio Management</p>
+<p><strong>Purpose:</strong> Demonstrate complete business service mapping from customer-facing business service through technical services and applications down to infrastructure, showing the value chain</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;business-service-mapping&quot; that demonstrates
+end-to-end business service mapping showing the complete value chain.
+
+Start with a customer-facing business service and trace through all layers:
+
+Business Service (Pink, Large):
+- &quot;Online Shopping&quot;
+
+Technical Services (Purple, Medium):
+- Product Catalog Service
+- Shopping Cart Service
+- Payment Service
+- Order Management Service
+
+Applications (Light Blue, Medium):
+- Web Frontend
+- Mobile App
+- API Gateway
+- Inventory System
+
+Databases (Orange, Medium):
+- Product DB
+- User DB
+- Order DB
+
+Infrastructure (Gray, Small):
+- Web Servers (2 nodes)
+- App Servers (2 nodes)
+- Database Servers (2 nodes)
+
+Show the complete dependency chain with labeled edges (PROVIDES, USES, RUNS_ON, QUERIES).
+
+FEATURE REQUEST: Add a &quot;Trace Service Path&quot; button that allows clicking on the business
+service to highlight the complete end-to-end path showing all supporting components.
+Display the path depth and component count in the sidebar.
+
+Custom callouts:
+1. &quot;Business services depend on a complex web of technical components&quot;
+2. &quot;Service mapping reveals the true cost and complexity of business capabilities&quot;
+3. &quot;End-to-end visibility enables better capacity planning and risk management&quot;
+4. &quot;Each layer adds dependencies that must be managed and maintained&quot;
+
+Custom educational notes:
+1. &quot;Notice how a single business service requires 15+ technical components across 4 layers&quot;
+2. &quot;Traditional IT management often loses this end-to-end visibility in siloed systems&quot;
+3. &quot;Graph models make this value chain explicit and queryable for impact analysis&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="10-rbac-permission-graph-visualization">10. RBAC Permission Graph Visualization</h2>
+<p><strong>Chapter:</strong> Compliance, Risk Management, and Security</p>
+<p><strong>Purpose:</strong> Demonstrate how Role-Based Access Control is modeled in an IT management graph, showing users, roles, resources, and permission flows</p>
+<p><strong>TODO:</strong> Run the it-graph-generator skill on this diagram.</p>
+<p><strong>Suggested Prompt:</strong></p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span></pre></div></td><td class="code"><div><pre><span></span><code>Create an interactive IT graph microsim called &quot;rbac-permission-graph&quot; that demonstrates
+Role-Based Access Control modeling in a graph database.
+
+Include these node types:
+1. Users (Amber, user icon) - 4 nodes: &quot;Alice (Admin)&quot;, &quot;Bob (Developer)&quot;, &quot;Carol (Analyst)&quot;, &quot;Dave (Viewer)&quot;
+2. Roles (Purple, hexagon) - 4 nodes: &quot;Admin&quot;, &quot;Developer&quot;, &quot;Analyst&quot;, &quot;Viewer&quot;
+3. Permissions (Green, key icon) - 5 nodes: &quot;READ&quot;, &quot;WRITE&quot;, &quot;DELETE&quot;, &quot;DEPLOY&quot;, &quot;CONFIGURE&quot;
+4. Resources (Light Blue, database/server icons) - 4 nodes: &quot;Production DB&quot;, &quot;Staging DB&quot;, &quot;Code Repo&quot;, &quot;Monitoring System&quot;
+
+Show these relationship types:
+- User → Role (HAS_ROLE)
+- Role → Permission (HAS_PERMISSION)
+- Permission → Resource (GRANTS_ACCESS_TO)
+
+Create realistic RBAC scenarios:
+- Admin: all permissions on all resources
+- Developer: READ, WRITE on Code Repo; READ on Staging DB
+- Analyst: READ on Production DB, Monitoring System
+- Viewer: READ on Monitoring System only
+
+FEATURE REQUEST: Add a &quot;Check Access&quot; mode where clicking a user shows all resources
+they can access (following the user→role→permission→resource path). Display the access
+matrix in the sidebar showing which resources the user can read/write/delete.
+
+Custom callouts:
+1. &quot;RBAC uses graph relationships to model permission inheritance&quot;
+2. &quot;Users gain permissions through role membership - indirect access&quot;
+3. &quot;Permission graphs enable complex access control queries&quot;
+4. &quot;Graph traversal answers &#39;What can this user access?&#39; instantly&quot;
+
+Custom educational notes:
+1. &quot;Notice how permissions are granted to roles, not users directly - this is the RBAC model&quot;
+2. &quot;A single query can find all resources a user can access by traversing user→role→permission→resource&quot;
+3. &quot;This graph model makes audit questions like &#39;Who can access production data?&#39; trivial to answer&quot;
+</code></pre></div></td></tr></table></div>
+<hr />
+<h2 id="implementation-notes">Implementation Notes</h2>
+<h3 id="order-of-implementation">Order of Implementation</h3>
+<p>Recommended order based on complexity and dependencies:</p>
+<ol>
+<li><strong>IT Infrastructure Nodes</strong> (nodes only, simplest)</li>
+<li><strong>IT Infrastructure Graph</strong> (builds on #1, adds edges)</li>
+<li><strong>IT Asset Relationship Graph</strong> (similar to #2, different domain)</li>
+<li><strong>Deployment DAG</strong> (introduces deployment concepts)</li>
+<li><strong>Dependency Cycle Detection</strong> (builds on DAG concepts)</li>
+<li><strong>Bidirectional Tracing</strong> (introduces directional analysis)</li>
+<li><strong>Multi-Layer Dependency Map</strong> (introduces layer concept)</li>
+<li><strong>Business Service Mapping</strong> (complex multi-layer)</li>
+<li><strong>Cypher Pattern Matching</strong> (introduces pattern concepts)</li>
+<li><strong>RBAC Permission Graph</strong> (complex access control model)</li>
+</ol>
+<h3 id="feature-requests-summary">Feature Requests Summary</h3>
+<p>Additional features needed beyond basic it-graph-generator:</p>
+<ol>
+<li><strong>Deployment Path Highlighting</strong> (Diagram #4)</li>
+<li><strong>Cycle Detection Button</strong> (Diagram #5)</li>
+<li><strong>Pattern Selection Buttons</strong> (Diagram #6)</li>
+<li><strong>Bidirectional Filtering</strong> (Diagram #7)</li>
+<li><strong>Layer View Toggle</strong> (Diagram #8)</li>
+<li><strong>Trace Service Path</strong> (Diagram #9)</li>
+<li><strong>Check Access Mode</strong> (Diagram #10)</li>
+</ol>
+<h3 id="testing-checklist">Testing Checklist</h3>
+<p>For each generated microsim, verify:
+- [ ] All nodes display correctly with proper icons
+- [ ] Edges show correct directionality and labels
+- [ ] Filter controls work on single row
+- [ ] Search finds nodes by properties
+- [ ] Educational notes are contextually relevant
+- [ ] Hover tooltips show all properties
+- [ ] Click displays full details in sidebar
+- [ ] Any custom features work correctly
+- [ ] Embedded in appropriate chapter with iframe
+- [ ] Documentation in index.md is complete</p>
+<hr />
+<h2 id="next-steps">Next Steps</h2>
+<ol>
+<li>Generate each microsim in the recommended order</li>
+<li>Test each microsim thoroughly</li>
+<li>Embed in appropriate chapters</li>
+<li>Update mkdocs.yml navigation</li>
+<li>Consider extending it-graph-generator skill to support advanced features</li>
+<li>Document any patterns or techniques for future microsims</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+    
+  </body>
+</html>
