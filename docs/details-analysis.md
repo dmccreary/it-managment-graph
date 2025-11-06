@@ -1,3 +1,9 @@
+---
+title: "Skill Impact Chart"
+description: "A 2D bubble chart of what skill would have the biggest impact on a textbook"
+image: /sims/skill-impact-chart/skill-impact-chart.png
+og:image: /sims/skill-impact-chart/skill-impact-chart.png
+---
 # Details Tag Content Analysis
 
 This report analyzes all `<details>` tags in the textbook chapters to categorize visualization types and prioritize skill development.
