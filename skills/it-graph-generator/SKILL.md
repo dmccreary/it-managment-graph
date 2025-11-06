@@ -297,6 +297,15 @@ After successful generation, provide a comprehensive report to the user:
 
 🎓 Educational Focus:
    <Educational purpose statement>
+```
+
+## Step 6: Add the Microsim to the Site Navigation
+
+Add a line to the mkdocs.yml nav section at the end of the sims area.
+
+```yml
+  - {{TITLE}}: /sims/<microsim-name>/index.md
+```
 
 🔗 Next Steps:
    1. View the visualization: /docs/sims/<microsim-name>/main.html
