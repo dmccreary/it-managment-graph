@@ -49,33 +49,7 @@ Prioritization based on **Impact** (frequency of use) vs. **Effort** (similarity
 
 ## Visual Priority Matrix
 
-```
-Impact (Frequency)
-     ↑
-  10 │
-   9 │
-   8 │
-   7 │
-   6 │
-   5 │
-   4 │
-   3 │
-   2 │
-   1 │
-   0 └──────────────────────────────────────────────────→ Effort (Dissimilarity)
-     0  1  2  3  4  5  6  7  8  9  10
-
-   [1, 6]: graph-model (n=10)
-   [0, 3]: microsim (n=5)
-   [4, 10]: diagram (n=15)
-   [2, 3]: infographic (n=5)
-   [5, 6]: chart (n=9)
-   [6, 4]: workflow (n=7)
-   [7, 2]: timeline (n=3)
-   [5, 0]: map (n=1)
-   [5, 0]: markdown-table (n=1)
-   [5, 0]: portfolio-quadrant-chart (n=1)
-```
+<iframe src="../sims/skill-impact-chart/main.html" width="100%" height="900" frameborder="0" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
 ### Quadrant Analysis
 
